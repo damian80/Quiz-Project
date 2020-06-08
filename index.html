@@ -1,21 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz Project</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-primary display-3 my-4">Quiz Project</h2>
+      </div>
+    </div>
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-primary">
+      <div class="container">
+        <h2 class="my-5 text-white">Questions</h2>
+        <form action="" class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1.What song was the most weeks at No1 o the Billboard Hot100?
+            </p>
+            <!-- first option -->
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" />
+              <label for="" class="form-check-label"></label>
+                Luis Fonsi and Daddy Yankee featuring Justin Bieber -
+                Despasito</label
+              >
+            </div>
+            <!-- second option -->
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B" />
+              <label for="" class="form-check-label">
+                Mariah Carey and Boyz II Men - One Sweet Day
+              </label>
+            </div>
+            <!-- third option -->
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="C" />
+              <label for="" class="form-check-label">
+                Lil Nas X (featuring Billy Ray Cyrus) - Old Town Road</label
+              >
+            </div>
+          </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal">
+                2.What is the most dangerous mountain in the world?
+            </p>
+            <!-- first option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="A" />
+                <label for="" class="form-check-label">
+                 Annapurna in Central Nepal (26,545 feet)
+                </label>
+            </div>
+            <!-- second option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="B" />
+                <label for="" class="form-check-label">
+                     Nanga Parbat in Gilgit-Baltistan, Pakistan (26,657 feet)
+                </label>
+            </div>
+            <!-- third option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="C" />
+                <label for="" class="form-check-label">
+                     K2 Pakistan-China border (28,251 feet)</label>
+            </div>
+        </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal">
+                3.What programming language I am learning now?
+            </p>
+            <!-- first option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="A" />
+                <label for="" class="form-check-label"></label>
+                Python
+                </label>
+            </div>
+            <!-- second option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="B" />
+                <label for="" class="form-check-label">
+                    JavaScript
+                </label>
+            </div>
+            <!-- third option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="C" />
+                <label for="" class="form-check-label">
+                    Swift</label>
+            </div>
+        </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal">
+                4.Who was the first US President?
+            </p>
+            <!-- first option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="A" />
+                <label for="" class="form-check-label"></label>
+                George Washington
+                </label>
+            </div>
+            <!-- second option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="B" />
+                <label for="" class="form-check-label">
+                    John Adams
+                </label>
+            </div>
+            <!-- third option -->
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="C" />
+                <label for="" class="form-check-label">
+                    Thomas Jefferson</label>
+            </div>
+        </div>
+        <div class="text-center">
+            <input type="submit" class="btn btn-light">
+        </div>
+        </form>
+      </div>
+    </div>
 
     <script src="style.js"></script>
-    <!-- <script src=""></script> -->
-</body>
-
+   
+  </body>
 </html>
